@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-df = pd.read_csv(r'C:\kuliah\Semester 6\Submission\Data\day.csv')
+df = pd.read_csv(r"C:\kuliah\Semester 6\Submission\Data\day.csv")
 
 # Display the dataframe using Streamlit
 st.write("Dataframe from CSV:")
